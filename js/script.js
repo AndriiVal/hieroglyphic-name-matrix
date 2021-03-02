@@ -4,7 +4,11 @@ if (mobile) {
 } 
 else { 
 	$('#mbtn').hide(); 
-    }
+}
+
+$( "#mbtn" ).click(function() {
+  $('#hieroglyph').focus();
+});
 
 const matrix_effect = document.querySelector("canvas");
 const neo = matrix_effect.getContext("2d");
