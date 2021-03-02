@@ -1,0 +1,21 @@
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  font-family: 'Merienda';
+  color: blue;
+  min-height: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.canvas {
+  position: fixed;
+  z-index: -1;
+  margin: 0;
+  background: #f4a460;
+  overflow: hidden;
+}
