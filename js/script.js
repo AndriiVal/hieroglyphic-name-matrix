@@ -1,3 +1,11 @@
+var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+if (mobile) {
+	$('#mbtn').show();
+} 
+else { 
+	$('#mbtn').hide(); 
+    }
+
 const matrix_effect = document.querySelector("canvas");
 const neo = matrix_effect.getContext("2d");
 const morpheus = (matrix_effect.width = window.innerWidth);
