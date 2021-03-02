@@ -6,8 +6,9 @@ else {
 	$('#mbtn').hide(); 
 }
 
-$( "#mbtn" ).click(function() {
-  $('#hieroglyph').focus();
+$("form").submit(function() {
+	$('#hieroglyph').focus();
+	return false;
 });
 
 const matrix_effect = document.querySelector("canvas");
